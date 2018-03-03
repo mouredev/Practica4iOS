@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2294E6203B68C000715F0D /* MemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2294E4203B68C000715F0D /* MemberListViewController.swift */; };
+		AC2294E7203B68C000715F0D /* MemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2294E5203B68C000715F0D /* MemberListViewController.xib */; };
+		AC73D22C2032389E00E3EDBF /* targaryenSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC73D2292032389D00E3EDBF /* targaryenSmall.jpg */; };
+		AC73D22D2032389E00E3EDBF /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC73D22A2032389E00E3EDBF /* lannister.jpg */; };
+		AC73D22E2032389E00E3EDBF /* codeIsComing.png in Resources */ = {isa = PBXBuildFile; fileRef = AC73D22B2032389E00E3EDBF /* codeIsComing.png */; };
+		AC73D2372032528900E3EDBF /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73D2352032528900E3EDBF /* HouseDetailViewController.swift */; };
+		AC73D2382032528900E3EDBF /* HouseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73D2362032528900E3EDBF /* HouseDetailViewController.xib */; };
+		AC82F74920362B8F00A41A17 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82F74720362B8F00A41A17 /* WikiViewController.swift */; };
+		AC82F74A20362B8F00A41A17 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC82F74820362B8F00A41A17 /* WikiViewController.xib */; };
+		AC82F751203644FA00A41A17 /* HouseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82F74F203644FA00A41A17 /* HouseListViewController.swift */; };
+		AC82F752203644FA00A41A17 /* HouseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC82F750203644FA00A41A17 /* HouseListViewController.xib */; };
+		AC9BD87D204B178E00ABCF85 /* EpisodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BD87C204B178E00ABCF85 /* EpisodeTest.swift */; };
+		ACA70DC8204A93C300E6711D /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DC7204A93C300E6711D /* Season.swift */; };
+		ACA70DCA204A943300E6711D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DC9204A943300E6711D /* Episode.swift */; };
+		ACA70DD4204AA8E500E6711D /* SeasonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DD2204AA8E500E6711D /* SeasonDetailViewController.swift */; };
+		ACA70DD5204AA8E500E6711D /* SeasonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA70DD3204AA8E500E6711D /* SeasonDetailViewController.xib */; };
+		ACA70DDD204AA9DE00E6711D /* Game of Thrones.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACA70DDC204AA9DE00E6711D /* Game of Thrones.ttf */; };
+		ACA70DE0204AB33300E6711D /* SeasonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DDE204AB33300E6711D /* SeasonListViewController.swift */; };
+		ACA70DE1204AB33300E6711D /* SeasonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA70DDF204AB33300E6711D /* SeasonListViewController.xib */; };
+		ACA70DE5204AB46500E6711D /* CustomUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DE4204AB46400E6711D /* CustomUITableViewCell.swift */; };
+		ACA70DE8204AC7BA00E6711D /* EpisodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DE6204AC7BA00E6711D /* EpisodeListViewController.swift */; };
+		ACA70DE9204AC7BA00E6711D /* EpisodeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA70DE7204AC7BA00E6711D /* EpisodeListViewController.xib */; };
+		ACA70DEC204AC7D800E6711D /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DEA204AC7D800E6711D /* EpisodeDetailViewController.swift */; };
+		ACA70DED204AC7D800E6711D /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA70DEB204AC7D800E6711D /* EpisodeDetailViewController.xib */; };
+		ACA70DEF204ACD5800E6711D /* CustomUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA70DEE204ACD5800E6711D /* CustomUIViewController.swift */; };
+		ACAB2936204AF42F008768E5 /* keepcoding.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2935204AF42F008768E5 /* keepcoding.png */; };
+		ACAB293A204AFD50008768E5 /* MemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB2938204AFD50008768E5 /* MemberDetailViewController.swift */; };
+		ACAB293B204AFD50008768E5 /* MemberDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2939204AFD50008768E5 /* MemberDetailViewController.xib */; };
+		ACAB2944204B0498008768E5 /* robb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB293E204B0497008768E5 /* robb.jpg */; };
+		ACAB2945204B0498008768E5 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB293F204B0497008768E5 /* tyrion.jpg */; };
+		ACAB2946204B0498008768E5 /* jaime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2940204B0497008768E5 /* jaime.jpg */; };
+		ACAB2947204B0498008768E5 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2941204B0498008768E5 /* cersei.jpg */; };
+		ACAB2948204B0498008768E5 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2942204B0498008768E5 /* arya.jpg */; };
+		ACAB2949204B0498008768E5 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAB2943204B0498008768E5 /* daenerys.jpg */; };
+		ACAB294D204B138B008768E5 /* SeasonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB294C204B138B008768E5 /* SeasonTest.swift */; };
+		ACD7E2A720337C8A00AA764C /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7E2A620337C8A00AA764C /* UIViewController+Additions.swift */; };
+		ACD7E2AB2033809D00AA764C /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7E2AA2033809D00AA764C /* RepositoryTests.swift */; };
+		ACD7E2AD2033816E00AA764C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7E2AC2033816E00AA764C /* Repository.swift */; };
+		ACE0CB75202CE4AB0094C3E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0CB74202CE4AB0094C3E7 /* AppDelegate.swift */; };
+		ACE0CB7C202CE4AB0094C3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE0CB7B202CE4AB0094C3E7 /* Assets.xcassets */; };
+		ACE0CB7F202CE4AB0094C3E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE0CB7D202CE4AB0094C3E7 /* LaunchScreen.storyboard */; };
+		ACE0CB95202CF01D0094C3E7 /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0CB94202CF01D0094C3E7 /* HouseTests.swift */; };
+		ACE0CB97202CF1C90094C3E7 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0CB96202CF1C90094C3E7 /* House.swift */; };
+		ACE0CB9A202CFD810094C3E7 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0CB99202CFD810094C3E7 /* PersonTests.swift */; };
+		ACE0CB9C202CFDF70094C3E7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0CB9B202CFDF70094C3E7 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE0CB86202CE4AC0094C3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE0CB69202CE4AB0094C3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE0CB70202CE4AB0094C3E7;
+			remoteInfo = Westeros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2294E4203B68C000715F0D /* MemberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListViewController.swift; sourceTree = "<group>"; };
+		AC2294E5203B68C000715F0D /* MemberListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberListViewController.xib; sourceTree = "<group>"; };
+		AC73D2292032389D00E3EDBF /* targaryenSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryenSmall.jpg; sourceTree = "<group>"; };
+		AC73D22A2032389E00E3EDBF /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
+		AC73D22B2032389E00E3EDBF /* codeIsComing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codeIsComing.png; sourceTree = "<group>"; };
+		AC73D2352032528900E3EDBF /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		AC73D2362032528900E3EDBF /* HouseDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseDetailViewController.xib; sourceTree = "<group>"; };
+		AC82F74720362B8F00A41A17 /* WikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		AC82F74820362B8F00A41A17 /* WikiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
+		AC82F74F203644FA00A41A17 /* HouseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewController.swift; sourceTree = "<group>"; };
+		AC82F750203644FA00A41A17 /* HouseListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseListViewController.xib; sourceTree = "<group>"; };
+		AC9BD87C204B178E00ABCF85 /* EpisodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTest.swift; sourceTree = "<group>"; };
+		ACA70DC7204A93C300E6711D /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		ACA70DC9204A943300E6711D /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		ACA70DD2204AA8E500E6711D /* SeasonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDetailViewController.swift; sourceTree = "<group>"; };
+		ACA70DD3204AA8E500E6711D /* SeasonDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonDetailViewController.xib; sourceTree = "<group>"; };
+		ACA70DDC204AA9DE00E6711D /* Game of Thrones.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Game of Thrones.ttf"; sourceTree = "<group>"; };
+		ACA70DDE204AB33300E6711D /* SeasonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonListViewController.swift; sourceTree = "<group>"; };
+		ACA70DDF204AB33300E6711D /* SeasonListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeasonListViewController.xib; sourceTree = "<group>"; };
+		ACA70DE4204AB46400E6711D /* CustomUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITableViewCell.swift; sourceTree = "<group>"; };
+		ACA70DE6204AC7BA00E6711D /* EpisodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewController.swift; sourceTree = "<group>"; };
+		ACA70DE7204AC7BA00E6711D /* EpisodeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeListViewController.xib; sourceTree = "<group>"; };
+		ACA70DEA204AC7D800E6711D /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		ACA70DEB204AC7D800E6711D /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
+		ACA70DEE204ACD5800E6711D /* CustomUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewController.swift; sourceTree = "<group>"; };
+		ACAB2935204AF42F008768E5 /* keepcoding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keepcoding.png; sourceTree = "<group>"; };
+		ACAB2938204AFD50008768E5 /* MemberDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDetailViewController.swift; sourceTree = "<group>"; };
+		ACAB2939204AFD50008768E5 /* MemberDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberDetailViewController.xib; sourceTree = "<group>"; };
+		ACAB293E204B0497008768E5 /* robb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robb.jpg; sourceTree = "<group>"; };
+		ACAB293F204B0497008768E5 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
+		ACAB2940204B0497008768E5 /* jaime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jaime.jpg; sourceTree = "<group>"; };
+		ACAB2941204B0498008768E5 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
+		ACAB2942204B0498008768E5 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arya.jpg; sourceTree = "<group>"; };
+		ACAB2943204B0498008768E5 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
+		ACAB294C204B138B008768E5 /* SeasonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonTest.swift; sourceTree = "<group>"; };
+		ACD7E2A620337C8A00AA764C /* UIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		ACD7E2AA2033809D00AA764C /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		ACD7E2AC2033816E00AA764C /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		ACE0CB71202CE4AB0094C3E7 /* Westeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE0CB74202CE4AB0094C3E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE0CB7B202CE4AB0094C3E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE0CB7E202CE4AB0094C3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE0CB80202CE4AB0094C3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE0CB85202CE4AC0094C3E7 /* WesterosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE0CB8B202CE4AC0094C3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE0CB94202CF01D0094C3E7 /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
+		ACE0CB96202CF1C90094C3E7 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		ACE0CB99202CFD810094C3E7 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		ACE0CB9B202CFDF70094C3E7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE0CB6E202CE4AB0094C3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE0CB82202CE4AC0094C3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC73D22F2032391700E3EDBF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACAB293D204B0473008768E5 /* Sigils */,
+				ACAB293C204B0468008768E5 /* Persons */,
+				ACAB2935204AF42F008768E5 /* keepcoding.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AC73D23420323AAE00E3EDBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DD6204AA8F300E6711D /* Houses */,
+				ACA70DD7204AA90700E6711D /* Seasons */,
+				ACA70DE2204AB43E00E6711D /* Util */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACA70DD6204AA8F300E6711D /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				AC82F74F203644FA00A41A17 /* HouseListViewController.swift */,
+				AC82F750203644FA00A41A17 /* HouseListViewController.xib */,
+				AC73D2352032528900E3EDBF /* HouseDetailViewController.swift */,
+				AC73D2362032528900E3EDBF /* HouseDetailViewController.xib */,
+				AC82F74720362B8F00A41A17 /* WikiViewController.swift */,
+				AC82F74820362B8F00A41A17 /* WikiViewController.xib */,
+				AC2294E4203B68C000715F0D /* MemberListViewController.swift */,
+				AC2294E5203B68C000715F0D /* MemberListViewController.xib */,
+				ACAB2938204AFD50008768E5 /* MemberDetailViewController.swift */,
+				ACAB2939204AFD50008768E5 /* MemberDetailViewController.xib */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+		ACA70DD7204AA90700E6711D /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DDE204AB33300E6711D /* SeasonListViewController.swift */,
+				ACA70DDF204AB33300E6711D /* SeasonListViewController.xib */,
+				ACA70DD2204AA8E500E6711D /* SeasonDetailViewController.swift */,
+				ACA70DD3204AA8E500E6711D /* SeasonDetailViewController.xib */,
+				ACA70DE6204AC7BA00E6711D /* EpisodeListViewController.swift */,
+				ACA70DE7204AC7BA00E6711D /* EpisodeListViewController.xib */,
+				ACA70DEA204AC7D800E6711D /* EpisodeDetailViewController.swift */,
+				ACA70DEB204AC7D800E6711D /* EpisodeDetailViewController.xib */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		ACA70DD8204AA91300E6711D /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0CB96202CF1C90094C3E7 /* House.swift */,
+				ACE0CB9B202CFDF70094C3E7 /* Person.swift */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+		ACA70DD9204AA91D00E6711D /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DC7204A93C300E6711D /* Season.swift */,
+				ACA70DC9204A943300E6711D /* Episode.swift */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		ACA70DDA204AA9C200E6711D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DDB204AA9CC00E6711D /* Fonts */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA70DDB204AA9CC00E6711D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DDC204AA9DE00E6711D /* Game of Thrones.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACA70DE2204AB43E00E6711D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DE3204AB44700E6711D /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		ACA70DE3204AB44700E6711D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DE4204AB46400E6711D /* CustomUITableViewCell.swift */,
+				ACA70DEE204ACD5800E6711D /* CustomUIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ACAB293C204B0468008768E5 /* Persons */ = {
+			isa = PBXGroup;
+			children = (
+				ACAB2942204B0498008768E5 /* arya.jpg */,
+				ACAB2941204B0498008768E5 /* cersei.jpg */,
+				ACAB2943204B0498008768E5 /* daenerys.jpg */,
+				ACAB2940204B0497008768E5 /* jaime.jpg */,
+				ACAB293E204B0497008768E5 /* robb.jpg */,
+				ACAB293F204B0497008768E5 /* tyrion.jpg */,
+			);
+			path = Persons;
+			sourceTree = "<group>";
+		};
+		ACAB293D204B0473008768E5 /* Sigils */ = {
+			isa = PBXGroup;
+			children = (
+				AC73D22B2032389E00E3EDBF /* codeIsComing.png */,
+				AC73D22A2032389E00E3EDBF /* lannister.jpg */,
+				AC73D2292032389D00E3EDBF /* targaryenSmall.jpg */,
+			);
+			path = Sigils;
+			sourceTree = "<group>";
+		};
+		ACD7E2A520337C1C00AA764C /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7E2A620337C8A00AA764C /* UIViewController+Additions.swift */,
+			);
+			path = UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		ACE0CB68202CE4AB0094C3E7 = {
+			isa = PBXGroup;
+			children = (
+				ACE0CB73202CE4AB0094C3E7 /* Westeros */,
+				ACE0CB88202CE4AC0094C3E7 /* WesterosTests */,
+				ACE0CB72202CE4AB0094C3E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE0CB72202CE4AB0094C3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0CB71202CE4AB0094C3E7 /* Westeros.app */,
+				ACE0CB85202CE4AC0094C3E7 /* WesterosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE0CB73202CE4AB0094C3E7 /* Westeros */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0CB74202CE4AB0094C3E7 /* AppDelegate.swift */,
+				ACD7E2A520337C1C00AA764C /* UIKitExtensions */,
+				AC73D23420323AAE00E3EDBF /* Controllers */,
+				ACE0CB98202CF8340094C3E7 /* Domain */,
+				AC73D22F2032391700E3EDBF /* Images */,
+				ACE0CB7B202CE4AB0094C3E7 /* Assets.xcassets */,
+				ACA70DDA204AA9C200E6711D /* Supporting Files */,
+				ACE0CB7D202CE4AB0094C3E7 /* LaunchScreen.storyboard */,
+				ACE0CB80202CE4AB0094C3E7 /* Info.plist */,
+			);
+			path = Westeros;
+			sourceTree = "<group>";
+		};
+		ACE0CB88202CE4AC0094C3E7 /* WesterosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0CB8B202CE4AC0094C3E7 /* Info.plist */,
+				ACE0CB94202CF01D0094C3E7 /* HouseTests.swift */,
+				ACE0CB99202CFD810094C3E7 /* PersonTests.swift */,
+				ACD7E2AA2033809D00AA764C /* RepositoryTests.swift */,
+				ACAB294C204B138B008768E5 /* SeasonTest.swift */,
+				AC9BD87C204B178E00ABCF85 /* EpisodeTest.swift */,
+			);
+			path = WesterosTests;
+			sourceTree = "<group>";
+		};
+		ACE0CB98202CF8340094C3E7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				ACA70DD8204AA91300E6711D /* Houses */,
+				ACA70DD9204AA91D00E6711D /* Seasons */,
+				ACD7E2AC2033816E00AA764C /* Repository.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE0CB70202CE4AB0094C3E7 /* Westeros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE0CB8E202CE4AC0094C3E7 /* Build configuration list for PBXNativeTarget "Westeros" */;
+			buildPhases = (
+				ACE0CB6D202CE4AB0094C3E7 /* Sources */,
+				ACE0CB6E202CE4AB0094C3E7 /* Frameworks */,
+				ACE0CB6F202CE4AB0094C3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westeros;
+			productName = Westeros;
+			productReference = ACE0CB71202CE4AB0094C3E7 /* Westeros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE0CB84202CE4AC0094C3E7 /* WesterosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE0CB91202CE4AC0094C3E7 /* Build configuration list for PBXNativeTarget "WesterosTests" */;
+			buildPhases = (
+				ACE0CB81202CE4AC0094C3E7 /* Sources */,
+				ACE0CB82202CE4AC0094C3E7 /* Frameworks */,
+				ACE0CB83202CE4AC0094C3E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE0CB87202CE4AC0094C3E7 /* PBXTargetDependency */,
+			);
+			name = WesterosTests;
+			productName = WesterosTests;
+			productReference = ACE0CB85202CE4AC0094C3E7 /* WesterosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE0CB69202CE4AB0094C3E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brais Moure";
+				TargetAttributes = {
+					ACE0CB70202CE4AB0094C3E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ACE0CB84202CE4AC0094C3E7 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACE0CB70202CE4AB0094C3E7;
+					};
+				};
+			};
+			buildConfigurationList = ACE0CB6C202CE4AB0094C3E7 /* Build configuration list for PBXProject "Westeros" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE0CB68202CE4AB0094C3E7;
+			productRefGroup = ACE0CB72202CE4AB0094C3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE0CB70202CE4AB0094C3E7 /* Westeros */,
+				ACE0CB84202CE4AC0094C3E7 /* WesterosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE0CB6F202CE4AB0094C3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC73D22D2032389E00E3EDBF /* lannister.jpg in Resources */,
+				ACAB2948204B0498008768E5 /* arya.jpg in Resources */,
+				ACAB2944204B0498008768E5 /* robb.jpg in Resources */,
+				ACA70DE1204AB33300E6711D /* SeasonListViewController.xib in Resources */,
+				ACAB2949204B0498008768E5 /* daenerys.jpg in Resources */,
+				AC82F74A20362B8F00A41A17 /* WikiViewController.xib in Resources */,
+				ACA70DD5204AA8E500E6711D /* SeasonDetailViewController.xib in Resources */,
+				ACE0CB7F202CE4AB0094C3E7 /* LaunchScreen.storyboard in Resources */,
+				AC82F752203644FA00A41A17 /* HouseListViewController.xib in Resources */,
+				ACA70DDD204AA9DE00E6711D /* Game of Thrones.ttf in Resources */,
+				ACAB2947204B0498008768E5 /* cersei.jpg in Resources */,
+				ACAB2945204B0498008768E5 /* tyrion.jpg in Resources */,
+				AC2294E7203B68C000715F0D /* MemberListViewController.xib in Resources */,
+				ACAB2946204B0498008768E5 /* jaime.jpg in Resources */,
+				ACAB2936204AF42F008768E5 /* keepcoding.png in Resources */,
+				ACAB293B204AFD50008768E5 /* MemberDetailViewController.xib in Resources */,
+				AC73D2382032528900E3EDBF /* HouseDetailViewController.xib in Resources */,
+				AC73D22C2032389E00E3EDBF /* targaryenSmall.jpg in Resources */,
+				ACA70DE9204AC7BA00E6711D /* EpisodeListViewController.xib in Resources */,
+				ACA70DED204AC7D800E6711D /* EpisodeDetailViewController.xib in Resources */,
+				AC73D22E2032389E00E3EDBF /* codeIsComing.png in Resources */,
+				ACE0CB7C202CE4AB0094C3E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE0CB83202CE4AC0094C3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE0CB6D202CE4AB0094C3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA70DE5204AB46500E6711D /* CustomUITableViewCell.swift in Sources */,
+				AC73D2372032528900E3EDBF /* HouseDetailViewController.swift in Sources */,
+				ACA70DD4204AA8E500E6711D /* SeasonDetailViewController.swift in Sources */,
+				ACE0CB9C202CFDF70094C3E7 /* Person.swift in Sources */,
+				ACA70DC8204A93C300E6711D /* Season.swift in Sources */,
+				ACA70DEC204AC7D800E6711D /* EpisodeDetailViewController.swift in Sources */,
+				ACE0CB97202CF1C90094C3E7 /* House.swift in Sources */,
+				ACA70DEF204ACD5800E6711D /* CustomUIViewController.swift in Sources */,
+				ACD7E2A720337C8A00AA764C /* UIViewController+Additions.swift in Sources */,
+				ACA70DCA204A943300E6711D /* Episode.swift in Sources */,
+				ACAB293A204AFD50008768E5 /* MemberDetailViewController.swift in Sources */,
+				ACE0CB75202CE4AB0094C3E7 /* AppDelegate.swift in Sources */,
+				ACD7E2AD2033816E00AA764C /* Repository.swift in Sources */,
+				AC82F74920362B8F00A41A17 /* WikiViewController.swift in Sources */,
+				AC82F751203644FA00A41A17 /* HouseListViewController.swift in Sources */,
+				ACA70DE8204AC7BA00E6711D /* EpisodeListViewController.swift in Sources */,
+				ACA70DE0204AB33300E6711D /* SeasonListViewController.swift in Sources */,
+				AC2294E6203B68C000715F0D /* MemberListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE0CB81202CE4AC0094C3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE0CB95202CF01D0094C3E7 /* HouseTests.swift in Sources */,
+				AC9BD87D204B178E00ABCF85 /* EpisodeTest.swift in Sources */,
+				ACE0CB9A202CFD810094C3E7 /* PersonTests.swift in Sources */,
+				ACD7E2AB2033809D00AA764C /* RepositoryTests.swift in Sources */,
+				ACAB294D204B138B008768E5 /* SeasonTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE0CB87202CE4AC0094C3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE0CB70202CE4AB0094C3E7 /* Westeros */;
+			targetProxy = ACE0CB86202CE4AC0094C3E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE0CB7D202CE4AB0094C3E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE0CB7E202CE4AB0094C3E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE0CB8C202CE4AC0094C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE0CB8D202CE4AC0094C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE0CB8F202CE4AC0094C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = Westeros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.Westeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE0CB90202CE4AC0094C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = Westeros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.Westeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACE0CB92202CE4AC0094C3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = WesterosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.WesterosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westeros.app/Westeros";
+			};
+			name = Debug;
+		};
+		ACE0CB93202CE4AC0094C3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = WesterosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.WesterosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westeros.app/Westeros";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE0CB6C202CE4AB0094C3E7 /* Build configuration list for PBXProject "Westeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE0CB8C202CE4AC0094C3E7 /* Debug */,
+				ACE0CB8D202CE4AC0094C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE0CB8E202CE4AC0094C3E7 /* Build configuration list for PBXNativeTarget "Westeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE0CB8F202CE4AC0094C3E7 /* Debug */,
+				ACE0CB90202CE4AC0094C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE0CB91202CE4AC0094C3E7 /* Build configuration list for PBXNativeTarget "WesterosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE0CB92202CE4AC0094C3E7 /* Debug */,
+				ACE0CB93202CE4AC0094C3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE0CB69202CE4AB0094C3E7 /* Project object */;
+}
