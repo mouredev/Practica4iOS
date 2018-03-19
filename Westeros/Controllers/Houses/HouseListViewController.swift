@@ -86,22 +86,14 @@ final class HouseListViewController: UITableViewController {
         // Averiguar qué casa han pulsado
         let house = model[indexPath.row]
         
-        if(splitViewController!.isCollapsed) {
-            if let detailViewController = delegate as? UIViewController {
-                
-                if UIDevice.current.userInterfaceIdiom == .pad {
-                    // Estamos en iPad
-                    splitViewController?.showDetailViewController(detailViewController.wrappedInNavigation(), sender: nil)
-                } else if UIDevice.current.userInterfaceIdiom == .phone {
-                    // Estamos en iPhone
-                    
-                    // Crear un controlador de detalle de esa casa
-                    let houseDetailViewController = HouseDetailViewController(model: house)
-                    
-                    // Hacer un push
-                    navigationController?.pushViewController(houseDetailViewController, animated: true)
-                }
-            }
+        if(splitViewController!.isCollapsed && UIDevice.current.userInterfaceIdiom == .phone) {
+            // Estamos en iPhone
+            
+            // Crear un controlador de detalle de esa casa
+            let houseDetailViewController = HouseDetailViewController(model: house)
+            
+            // Hacer un push
+            navigationController?.pushViewController(houseDetailViewController, animated: true)
         }
         
         // Avisamos al delegado

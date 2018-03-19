@@ -56,7 +56,7 @@ class EpisodeTest: XCTestCase {
     }
     
     func testComparable() {
-        XCTAssertLessThan(s1e2, s1e1)
+        XCTAssertLessThan(s1e1, s1e2)
     }
     
 }

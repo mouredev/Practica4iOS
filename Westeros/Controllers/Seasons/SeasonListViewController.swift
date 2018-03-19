@@ -12,7 +12,7 @@ let SEASON_DID_CHANGE_NOTIFICATION_NAME = "SeasonDidChange"
 let SEASON_KEY = "SeasonKey"
 
 protocol SeasonListViewControllerDelegate: class {
-
+    
     func seasonListViewController(_ vc: SeasonListViewController, didSelectSeason season: Season)
 }
 
@@ -39,7 +39,7 @@ final class SeasonListViewController: UITableViewController {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()        
     }
-
+    
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -82,22 +82,14 @@ final class SeasonListViewController: UITableViewController {
         // Descubrir la temporada que tenemos que mostrar
         let season = model[indexPath.row]
         
-        if(splitViewController!.isCollapsed) {
-            if let detailViewController = delegate as? UIViewController {
-                
-                if UIDevice.current.userInterfaceIdiom == .pad {
-                    // Estamos en iPad
-                    splitViewController?.showDetailViewController(detailViewController.wrappedInNavigation(), sender: nil)
-                } else if UIDevice.current.userInterfaceIdiom == .phone {
-                    // Estamos en iPhone
-                    
-                    // Crear un controlador de detalle de esa casa
-                    let seasonDetailViewController = SeasonDetailViewController(model: season)
-                    
-                    // Hacer un push
-                    navigationController?.pushViewController(seasonDetailViewController, animated: true)
-                }
-            }
+        if(splitViewController!.isCollapsed && UIDevice.current.userInterfaceIdiom == .phone) {
+            // Estamos en iPhone
+            
+            // Crear un controlador de detalle de esa casa
+            let seasonDetailViewController = SeasonDetailViewController(model: season)
+            
+            // Hacer un push
+            navigationController?.pushViewController(seasonDetailViewController, animated: true)
         }
         
         // Avisamos al delegado

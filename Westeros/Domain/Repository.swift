@@ -131,7 +131,7 @@ final class LocalFactory: HouseFactory, SeasonFactory {
         seasonSeven.add(episodes: s7e1, s7e2)
         
         // Se relorna el listado ordenado por fecha de emisión
-        return [seasonOne, seasonTwo, seasonThree, seasonFour, seasonSeven, seasonSix, seasonFive].sorted(by: { $0.releaseDate < $1.releaseDate })
+        return [seasonOne, seasonTwo, seasonThree, seasonFour, seasonSeven, seasonSix, seasonFive].sorted()
     }
     
     func seasons(filteredBy: SeasonFilter) -> [Season] {

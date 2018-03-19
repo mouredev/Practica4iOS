@@ -32,8 +32,8 @@ extension Episode {
         return "\(title) \(releaseDate)"
     }
     
-    var proxyForComparison: String {
-        return description
+    var proxyForComparison: Date {
+        return releaseDate
     }
     
 }
